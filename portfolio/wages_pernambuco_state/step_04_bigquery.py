@@ -1,4 +1,4 @@
-from portfolio.util.gcp import BigQuery
+from portfolio.wages_pernambuco_state.util.gcp import BigQuery
 from portfolio.wages_pernambuco_state import constants
 
 bquery = BigQuery()

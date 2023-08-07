@@ -9,7 +9,7 @@ from io import BytesIO
 
 class GCP:
     def __init__(self):
-        self.key = '../util/gcp.json'
+        self.key = 'util/gcp.json'
         self.client = storage.Client.from_service_account_json(self.key)
 
     def list_files(self, bucket_name: str, subfolder: str) -> List[str]:
@@ -54,7 +54,7 @@ class GCP:
 
 class BigQuery:
     def __init__(self):
-        self.key = '../util/gcp.json'
+        self.key = 'util/gcp.json'
         self.client = bigquery.Client.from_service_account_json(self.key)
 
     def create_dataset(self, dataset_name: str):

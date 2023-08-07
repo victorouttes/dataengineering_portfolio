@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from portfolio.util.gcp import GCP
+from portfolio.wages_pernambuco_state.util.gcp import GCP
 from portfolio.wages_pernambuco_state import constants
 
 
